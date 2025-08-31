@@ -13,3 +13,7 @@ Feature: Smoke testing BoA web app
   Scenario: User can see their FICO score
     And user clicks on "Information" tab
     Then user should see their fico score
+
+  @PSM-03
+  Scenario: Testing browser on Jenkins
+    And correct browser picked up
